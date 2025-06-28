@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class UIConst
+namespace Cronica.UI
 {
-    public enum UIID
+    public static class UIConst
     {
-        UIPanelTest,       //测试界面（示例）
+        public enum UIID
+        {
+            UIPanelTest,       //测试界面（示例）
+        }
     }
 }
